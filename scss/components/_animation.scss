@@ -1,0 +1,46 @@
+.text-show-up-to-down { 
+    color: rgba(127, 129, 100, 0.0);
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-image: linear-gradient(90deg, var(--primary-color), var(--primary-color));
+    animation: text-show-up-to-down 2s ease-in-out forwards;
+}
+
+@keyframes text-show-up-to-down {
+    to { background-size: 100% 100% }
+}
+
+.img-grow {
+    animation: img-grow .5s linear forwards;
+}
+
+@keyframes img-grow {
+    from {
+        opacity: 0;
+        scale: 0.2;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.reveal-text-down {
+    clip-path: inset(0 0 100% 0);
+    animation: revealText 1s linear forwards;
+}
+
+@keyframes revealText {
+    100% { clip-path: inset(0 0 0 0) }
+}
+
+.img-display-left-to-right {
+    clip-path: inset(0 90% 0 0);
+    animation: img-display-left-to-right .9s linear forwards;     
+}
+
+@keyframes img-display-left-to-right {
+    100% { clip-path: inset(0 0 0 0) }
+}

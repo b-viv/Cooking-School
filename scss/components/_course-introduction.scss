@@ -1,0 +1,32 @@
+.course_introduction-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/salt-c.jpg) no-repeat center center / cover;
+}
+
+.bg-logo {
+    opacity: 0.12;
+}
+
+.highlight-text {
+    display: inline;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        right: 0;
+        width: 100%;
+        height: 10px;
+        z-index: -99;
+        background: radial-gradient(circle, rgba(127, 129, 100, .3) 64%, rgba(255, 255, 255, 0) 95%);
+    }
+}
+
+.custom-item {
+    height: 600px;
+}
+
+.custom-img {
+    height: 100%;
+    object-fit: contain;
+}

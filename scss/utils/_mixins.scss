@@ -1,0 +1,8 @@
+@mixin button-set {
+    --bs-btn-font-family: var(--ff-primary);
+    --bs-btn-font-weight: 400;
+    --bs-btn-border-radius: none;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-active-bg: transparent;
+}

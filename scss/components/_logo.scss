@@ -1,0 +1,15 @@
+.logo {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    background: radial-gradient(circle, rgba(255, 255, 255, .5) 3%, rgba(255, 255, 255, .1) 80%);
+    border-radius: 50%;
+
+    &:hover {
+        background: radial-gradient(circle, rgba(255, 255, 255, .8) 3%, rgba(255, 255, 255, .5) 80%);
+    }
+
+    img {
+        width: 60px !important;
+    }
+}

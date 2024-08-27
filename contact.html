@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="40x40" href="assets/images/vertical-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Cooking Scool</title>
+</head>
+
+<body class="bg-primary">
+    <nav class="navbar navbar-dark navbar-expand-md bg-transparent">
+        <div class="container-fluid px-sm-5">
+            <a class="logo navbar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <img src="assets/images/vertical-logo.png" alt="Cooking Scool logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid min-vh-100 d-flex  text-secondary">
+        <div class="row">
+            <div class="col-md-6 col-12 p-5">
+                <h2 class="mb-5">Contact us</h2>
+                <p class="fs-5 lh-lg">For information on 1-on-1 classes with an instructor, please provide some basic
+                    information on your
+                    goals and we’ll
+                    provide our recommended next steps.</p>
+                <hr class="my-5">
+
+                <div>
+                    <address class="lh-lg">
+                        1234 Elm Street<br>
+                        Springfield, USA<br>
+                        <a class="text-secondary" href=" #">info@example.com</a><br>
+                        Tel: +1-555-555-5555
+                    </address>
+                </div>
+                <div class="my-5">
+                    <ul class="social-media-dark gap-2 d-flex p-0">
+                        <li>
+                            <a href="#" target="_blank"><img src="assets/images/facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><img src="assets/images/icons8-twitter.svg" alt="twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><img src="assets/images/instagram.svg" alt="instagram"></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><img src="assets/images/pinterest.svg" alt="instagram"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 p-5">
+                <form class="validations mw-100">
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <label for="firstName" class="form-label">First Name *</label>
+                            <input type="text" class="form-control bg-secondary text-primary" id="firstName" required>
+                        </div>
+                        <div class="col-6">
+                            <label for="lastName" class="form-label">Last Name *</label>
+                            <input type="text" class="form-control bg-secondary text-primary" id="lastName" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address *<span class="text-muted fw-light">*</span>
+                        </label>
+                        <input type="email" class="form-control bg-secondary text-primary" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subjectText" class="form-label">Subject *</label>
+                        <input type="text" class="form-control bg-secondary text-primary" id="subjectText" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="textArea" class="form-label">Message *</label>
+                        <textarea class="form-control bg-secondary text-primary" id="textArea" rows="3"
+                            required></textarea>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-bd-secondary mb-3">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="bg-dark text-primary ">
+            <div class="row map-container g-0">
+                <div class="position-relative">
+                    <div class="bg-dark col-11 mx-auto position-absolute top-50 start-50 translate-middle p-0">
+                        <div class="border border-5 border-secondary">
+                            <div class="map row mx-auto p-1 border border-5 border-dark">
+                                <div id="map" class="w-100 h-100 mx-auto">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row justify-content-center py-3">
+                    <div class="my-3 col-12 mx-auto">
+                        <a class="logo d-flex align-items-center justify-content-center" href="#hero">
+                            <img src="assets/images/vertical-logo.png" alt="Cooking Scool logo" loading="lazy">
+                        </a>
+                        <hr>
+                        <p>Discover the joy of cooking with us!</p>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 my-3 contact-info">
+                        <div class="w-md-75 mx-auto">
+                            <h4 class="lh-1">Contact Us</h4>
+                            <hr>
+                            <address class="lh-lg">
+                                1234 Elm Street<br>
+                                Springfield, USA<br>
+                                <a href=" #">info@example.com</a><br>
+                                Tel: +1-555-555-5555
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  my-3">
+                        <div class="ps-5 mx-auto">
+                            <h4 class="lh-1">Overview</h4>
+                            <hr>
+                            <ul class="lh-lg ps-0">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Classes</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="my-3 social-media col-12 col-md-6 col-lg-4">
+                        <div class="w-75 mx-auto">
+                            <h4 class="lh-1 ">Follow Us</h4>
+                            <hr>
+                            <div class="newsletter">
+                                <form class="sub-form needs-validation">
+                                    <div class="form-floating ">
+                                        <input type="email" name="email" id="floatingInput"
+                                            class="emailInput form-control w-100 mb-2"
+                                            placeholder="Enter your email adress" required>
+                                        <label for="floatingInput" class="label bg-dark">Enter your email adress</label>
+                                    </div>
+                                    <button type="submit"
+                                        class="subscribe-btn btn btn-bd-primary form-control">Subscribe</button>
+                                </form>
+                            </div>
+                            <ul class="d-flex gap-3 py-4 ps-0">
+                                <li>
+                                    <a href="#" target="_blank"><img src="assets/images/facebook.svg" alt="facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><img src="assets/images/icons8-twitter.svg"
+                                            alt="twitter">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><img src="assets/images/instagram.svg"
+                                            alt="instagram"></a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank"><img src="assets/images/pinterest.svg"
+                                            alt="instagram"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 Example Company. All rights reserved. | Made with &#10084</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+        </script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrH_RwUcp-IXdwU6-MP2bvIOWbMaWQD0A&loading=async&callback=initMap">
+        </script>
+    <script src="js/contact.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/newsletter.js"></script>
+</body>

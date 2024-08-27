@@ -1,0 +1,30 @@
+@use '../utils/' as m;
+
+.btn-bd-secondary {
+  --bs-btn-padding-x: 5rem;
+  --bs-btn-padding-y: 1rem;
+  --bs-btn-font-size: 1.2rem;
+  --bs-btn-color: var(--primary-color);
+  --bs-btn-bg: var(--secondary-color);
+  --bs-btn-hover-color: var(--secondary-color);
+  --bs-btn-hover-bg: var(--primary-color);
+  --bs-btn-focus-shadow-rgb: var(--primary-color);
+  --bs-btn-active-color: var(--secondary-color);
+  --bs-btn-active-border-color: var(--secondary-color);
+  @include m.button-set;
+}
+
+.btn-bd-primary {
+  --bs-btn-padding-x: 5rem;
+  --bs-btn-padding-y: .8rem;
+  --bs-btn-font-size: 1rem;
+  --bs-btn-color: var(--secondary-color);
+  --bs-btn-bg: var(--primary-color);
+  --bs-btn-hover-color: var(--primary-color);
+  --bs-btn-hover-bg: var(--secondary-color);
+  --bs-btn-focus-shadow-rgb: var(--secondary-color);
+  --bs-btn-active-color: var(--primary-color);
+  --bs-btn-active-border-color: var(--primary-color);
+  @include m.button-set;
+}
+

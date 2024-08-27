@@ -1,0 +1,21 @@
+.social-media {
+    img {
+        width: 25px;
+        filter: brightness(0) saturate(100%) invert(52%) sepia(4%) saturate(2052%) hue-rotate(25deg) brightness(95%) contrast(83%);
+    }
+
+    img:hover {
+        filter: brightness(0) saturate(100%) invert(96%) sepia(6%) saturate(1225%) hue-rotate(319deg) brightness(101%) contrast(109%);
+    }
+}
+
+.social-media-dark {
+    img {
+        width: 25px;
+        filter: brightness(0) saturate(100%) invert(96%) sepia(6%) saturate(1225%) hue-rotate(319deg) brightness(101%) contrast(109%);
+    }
+
+    img:hover {
+        filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(29%) hue-rotate(335deg) brightness(93%) contrast(107%);
+    }
+}

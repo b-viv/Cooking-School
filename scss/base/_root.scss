@@ -1,0 +1,19 @@
+$primary: rgb(127, 129, 100);
+$secondary: rgb(255, 249, 227);
+$info: rgb(205, 216, 217);
+$success: rgb(67, 215, 54);
+$danger: rgb(252, 91, 91);
+
+$h1-font-size: calc(0.9rem + 4.5vw);
+$headings-font-weight: 700;
+$headings-font-family: var(--ff-primary);
+$body-font-family: var(--ff-primary);
+
+:root {
+    --ff-primary: 'Poppins', serif-sans;
+
+    --primary-color: #{$primary};
+    --secondary-color: #{$secondary};
+    --danger-color: #{$danger};
+    --success-color: #{$success};
+}

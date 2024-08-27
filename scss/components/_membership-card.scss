@@ -1,0 +1,7 @@
+.membership-card:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px var(--primary-color), 20px 20px 0px 0px var(--primary-color);
+    box-shadow: 0px 10px 13px -7px var(--primary-color), 20px 20px 0px 0px var(--primary-color);
+    transform: translate(-10px, -10px);
+    transition: .2s ease-out;
+    cursor: pointer;
+}

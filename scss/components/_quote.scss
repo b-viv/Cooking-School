@@ -1,0 +1,19 @@
+.quote {
+
+    img {
+        width: 150px !important;
+    }
+
+    q {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+}
+
+.quote-laurie {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/choping.jpg) no-repeat center center / cover;
+}
+
+.quote-karl {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/roll-dough.jpg) no-repeat center center / cover;
+}

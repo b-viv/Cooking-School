@@ -1,0 +1,19 @@
+$input-color: var(--secondary-color);
+$input-bg: transparent;
+$input-border-color: var(--primary-color);
+$input-border-radius: 0;
+$input-font-weight: 300;
+$form-floating-label-transform: scale(.85) translateY(-1.8rem) translateX(.15rem);
+$form-floating-label-opacity: 1;
+
+label {
+    width: fit-content !important;
+    height: 40px !important;
+    padding: 0.5rem 0.75rem !important;
+    top: 8px !important;
+    left: 5px !important;
+}
+
+form {
+    max-width: 300px;
+}
