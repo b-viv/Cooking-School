@@ -353,6 +353,10 @@ form {
   object-fit: contain;
 }
 
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
