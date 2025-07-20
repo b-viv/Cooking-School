@@ -12,12 +12,12 @@
 - [Features](#features)
 - [Built with](#built-with)
 
-## Overview
+## 📝 Overview
 
 Cooking School is a fully responsive, multi-page website that presents a fictional cooking school. The project includes sections for courses, instructors, testimonials, contact information, an interactive quiz, and an embedded map using the Google Maps API. It demonstrates the use of semantic HTML, SCSS-based Bootstrap customization, basic JavaScript interactivity, and third-party API integration.
 
 
-## Features
+## ✨ Features
 
 🏫 Multi-Page Structure: Includes Home, Courses, About Us, and Contact pages to simulate a real-world cooking school's website.
 
@@ -36,7 +36,7 @@ Cooking School is a fully responsive, multi-page website that presents a fiction
 🎯 Clean UI & Navigation: Simple, intuitive navigation for a user-friendly browsing experience.
 
 
-## Built With
+## 🛠️ Built With
 
 - HTML 
 - Bootstrap + SCSS
